@@ -30,7 +30,7 @@ int main(int argc, char const *argv[])
         return 1;
     }
 
-    if (!client.Connect("chat.freenode.net", 6665)) {
+    if (!client.Connect("irc.dal.net", 6665)) {
         return 1;
     }
 
